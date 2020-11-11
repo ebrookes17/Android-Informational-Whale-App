@@ -16,14 +16,6 @@ public class BaleenWhalesActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_baleen_whales);
 
-        // button to open MainActivity
-        buttonGoBack = (Button) findViewById(R.id.buttonBack);
-        buttonGoBack.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                openMainActivity();
-            }
-        });
     }
     // function to open MainActivity
     public void openMainActivity(){
