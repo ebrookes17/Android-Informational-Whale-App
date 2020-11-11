@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Informational Whale App</string>
+    <string name="baleen_whales">Baleen Whales</string>
+    <string name="toothed_whales">Toothed Whales</string>
 </resources>
