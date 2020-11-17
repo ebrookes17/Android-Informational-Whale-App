@@ -15,7 +15,7 @@ public class ToothedWhalesActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_toothed_whales);
-
+        getSupportActionBar().hide();
     }
     // function to open MainActivity
     public void openMainActivity(){

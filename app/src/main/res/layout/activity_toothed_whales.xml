@@ -25,17 +25,20 @@
             android:scaleType="centerCrop"
             android:src="@drawable/spermwhale"
             app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/buttonSperm" />
+            app:layout_constraintTop_toBottomOf="@+id/imageViewBaleenWhale2" />
 
         <Button
             android:id="@+id/buttonSperm"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:background="#FBFBFB"
+            android:background="#00FFFFFF"
+            android:fontFamily="@font/advent_pro"
             android:text="Sperm Whale"
-            android:textColor="#141D50"
-            app:layout_constraintBottom_toTopOf="@+id/guideline3"
+            android:textColor="#FFFFFF"
+            android:textSize="56sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageViewBaleenWhale3"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageViewBaleenWhale2" />
@@ -52,17 +55,18 @@
             app:layout_constraintBottom_toTopOf="@+id/guideline2"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/buttonOrca"
-/>
+            app:layout_constraintTop_toTopOf="@+id/buttonOrca" />
 
         <Button
             android:id="@+id/buttonOrca"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:background="#FBFBFB"
+            android:background="#00FBFBFB"
+            android:fontFamily="@font/advent_pro"
             android:text="Orca"
-            android:textColor="#141D50"
-            app:layout_constraintBottom_toTopOf="@+id/guideline"
+            android:textColor="#FFFFFF"
+            android:textSize="56sp"
+            app:layout_constraintBottom_toTopOf="@+id/guideline2"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageViewBaleenWhale" />
@@ -70,11 +74,13 @@
         <Button
             android:id="@+id/buttonToothedWhales"
             android:layout_width="match_parent"
-            android:layout_height="66dp"
+            android:layout_height="0dp"
             android:background="#141D50"
+            android:fontFamily="@font/advent_pro_medium"
             android:text="@string/toothed_whales"
             android:textColor="#FFFFFF"
-            android:textSize="24sp"
+            android:textSize="36sp"
+            app:layout_constraintBottom_toTopOf="@+id/imageViewBaleenWhale"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -98,47 +104,35 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            app:layout_constraintGuide_percent="0.5" />
+            app:layout_constraintGuide_percent="0.42" />
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            app:layout_constraintGuide_percent="0.15" />
+            app:layout_constraintGuide_percent="0.14" />
 
         <Button
             android:id="@+id/buttonBeaked"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:background="#FBFBFB"
+            android:background="#00FFFFFF"
+            android:fontFamily="@font/advent_pro"
             android:text="Bowhead"
-            android:textColor="#141D50"
-            app:layout_constraintBottom_toTopOf="@+id/imageViewBaleenWhale"
+            android:textColor="#FFFFFF"
+            android:textSize="56sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonOrca"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/buttonToothedWhales" />
-
-        <androidx.constraintlayout.widget.Guideline
-            android:id="@+id/guideline"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            app:layout_constraintGuide_percent="0.56" />
+            app:layout_constraintTop_toTopOf="@+id/imageViewBaleenWhale" />
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            app:layout_constraintGuide_percent="0.91" />
-
-        <androidx.constraintlayout.widget.Guideline
-            android:id="@+id/guideline3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            app:layout_constraintGuide_percent="0.97" />
+            app:layout_constraintGuide_percent="0.7" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
