@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        //getSupportActionBar().hide();
+        getSupportActionBar().hide();
 
         // button to open BaleenWhalesActivity
         buttonBW = (Button) findViewById(R.id.buttonBaleenWhales);
@@ -44,5 +44,6 @@ public class MainActivity extends AppCompatActivity {
     public void openToothedWhalesActivity(){
         Intent intent = new Intent(this, ToothedWhalesActivity.class);
         startActivity(intent);
+        //
     }
 }
