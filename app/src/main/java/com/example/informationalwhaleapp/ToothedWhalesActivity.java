@@ -28,6 +28,15 @@ public class ToothedWhalesActivity extends AppCompatActivity {
                 openBowheadDescription();
             }
         });
+
+        //links button press to open method
+        buttonOrca = (Button) findViewById(R.id.buttonOrca);
+        buttonOrca.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openOrcaDescription();
+            }
+        });
     }
 
 
@@ -35,6 +44,12 @@ public class ToothedWhalesActivity extends AppCompatActivity {
     //launches bohead activity
     public void openBowheadDescription() {
         Intent intent = new Intent(this, BowheadWhale.class);
+        startActivity(intent);
+    }
+
+    //launches orca activity
+    public void openOrcaDescription() {
+        Intent intent = new Intent(this, OrcaWhale.class);
         startActivity(intent);
     }
 
