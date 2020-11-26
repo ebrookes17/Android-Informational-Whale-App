@@ -9,18 +9,40 @@ import android.widget.Button;
 
 public class ToothedWhalesActivity extends AppCompatActivity {
 
-    Button buttonGoBack;
+    Button buttonO;
+    Button buttonS;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_toothed_whales);
         getSupportActionBar().hide();
+
+        // button to open BaleenWhalesActivity
+        buttonS = (Button) findViewById(R.id.buttonSperm);
+        buttonS.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openSpermWhaleActivity();
+            }
+        });
+        // button to open ToothedWhalesActivity
+        buttonO = (Button) findViewById(R.id.buttonOrca);
+        buttonO.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openOrcaWhaleActivity();
+            }
+        });
     }
 
-    // function to open MainActivity
-    public void openMainActivity(){
-        Intent intent = new Intent(this, MainActivity.class);
+    public void openSpermWhaleActivity(){
+        Intent intent = new Intent(this, SpermWhale.class);
+        startActivity(intent);
+    }
+    public void openOrcaWhaleActivity(){
+        Intent intent = new Intent(this, OrcaWhale.class);
         startActivity(intent);
     }
 }
+
