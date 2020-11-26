@@ -17,6 +17,7 @@ public class ToothedWhalesActivity extends AppCompatActivity {
         setContentView(R.layout.activity_toothed_whales);
         getSupportActionBar().hide();
     }
+
     // function to open MainActivity
     public void openMainActivity(){
         Intent intent = new Intent(this, MainActivity.class);
