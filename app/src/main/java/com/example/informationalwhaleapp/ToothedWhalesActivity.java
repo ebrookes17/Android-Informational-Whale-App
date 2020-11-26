@@ -30,17 +30,14 @@ public class ToothedWhalesActivity extends AppCompatActivity {
         });
     }
 
-
-
-    //launches bohead activity
-    public void openBowheadDescription() {
-        Intent intent = new Intent(this, BowheadWhale.class);
-        startActivity(intent);
-    }
-
     // function to open MainActivity
     public void openMainActivity(){
         Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+    }
+      //launches bohead activity
+    public void openBowheadDescription() {
+        Intent intent = new Intent(this, BowheadWhale.class);
         startActivity(intent);
     }
 }
