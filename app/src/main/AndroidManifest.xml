@@ -9,14 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SpermWhale"></activity>
+        <activity android:name=".HumpbackWhale"></activity>
+        <activity android:name=".GreyWhale" />
+        <activity android:name=".BeakedWhale" />
+        <activity android:name=".BowHeadWhale" />
+        <activity android:name=".SpermWhale" />
         <activity android:name=".OrcaWhale" />
-        <activity android:name=".BowheadWhale" />
+
         <activity android:name=".WelcomeScreen">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity android:name=".ToothedWhalesActivity" />
