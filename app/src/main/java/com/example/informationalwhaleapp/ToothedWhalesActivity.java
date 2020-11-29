@@ -9,6 +9,7 @@ import android.widget.Button;
 
 public class ToothedWhalesActivity extends AppCompatActivity {
 
+    Button buttonB;
     Button buttonO;
     Button buttonS;
 
@@ -34,6 +35,19 @@ public class ToothedWhalesActivity extends AppCompatActivity {
                 openOrcaWhaleActivity();
             }
         });
+
+        buttonB = (Button) findViewById(R.id.buttonBowhead);
+        buttonB.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openBowHeadWhaleActivity();
+            }
+        });
+    }
+
+    public void openBowHeadWhaleActivity(){
+        Intent intent = new Intent(this, BowHeadWhale.class);
+        startActivity(intent);
     }
 
     public void openSpermWhaleActivity(){
