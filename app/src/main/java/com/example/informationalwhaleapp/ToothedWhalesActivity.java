@@ -1,11 +1,11 @@
 package com.example.informationalwhaleapp;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import java.util.Objects;
 
 public class ToothedWhalesActivity extends AppCompatActivity {
 
@@ -17,7 +17,8 @@ public class ToothedWhalesActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_toothed_whales);
-        getSupportActionBar().hide();
+        // hide action bar
+        Objects.requireNonNull(getSupportActionBar()).hide();
 
         // button to open BaleenWhalesActivity
         buttonS = (Button) findViewById(R.id.buttonSperm);

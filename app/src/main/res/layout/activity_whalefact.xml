@@ -2,7 +2,6 @@
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:background="@drawable/whalefactbackground"
     android:layout_height="match_parent">
@@ -12,7 +11,7 @@
         android:layout_width="392dp"
         android:layout_height="212dp"
         android:fontFamily="@font/advent_pro"
-        android:text="Gray Whales make the longest annual migration of any mammal and travel an average of 16000km!"
+        android:text="@string/gray_whales_make_the_longest_annual_migration_of_any_mammal_and_travel_an_average_of_16000km"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="#FFFFFF"
         android:textColorHighlight="#000000"

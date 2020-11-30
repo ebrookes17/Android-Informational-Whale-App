@@ -1,8 +1,8 @@
 package com.example.informationalwhaleapp;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
+import java.util.Objects;
 
 public class GreyWhale extends AppCompatActivity {
 
@@ -10,6 +10,7 @@ public class GreyWhale extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_grey_whale);
-        getSupportActionBar().hide();
+        // hide action bar
+        Objects.requireNonNull(getSupportActionBar()).hide();
     }
 }

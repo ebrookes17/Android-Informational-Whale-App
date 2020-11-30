@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -17,7 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/advent_pro"
-            android:text="Summary:"
+            android:text="@string/summary"
             android:textColor="#FFFFFF"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -27,7 +26,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/advent_pro"
-            android:text="The sperm whale or cachalot (Physeter macrocephalus) is the largest of the toothed whales and the largest toothed predator. It is the only living member of the genus Physeter and one of three extant species in the sperm whale family"
+            android:text="@string/the_sperm_whale_or_cachalot_physeter_macrocephalus_is_the_largest_of_the_toothed_whales_and_the_largest_toothed_predator_it_is_the_only_living_member_of_the_genus_physeter_and_one_of_three_extant_species_in_the_sperm_whale_family"
             android:textColor="#FFFFFF"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -38,7 +37,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/advent_pro"
             android:shadowColor="#FFFFFF"
-            android:text="Diet:"
+            android:text="@string/diet"
             android:textColor="#FFFFFF"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -48,7 +47,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/advent_pro"
-            android:text="Sperm whales usually dive between 300 to 800 meters (980 to 2,620 ft), and sometimes 1 to 2 kilometers (3,300 to 6,600 ft), in search of food. Such dives can last more than an hour. They feed on several species, notably the giant squid, but also the colossal squid, octopuses, and fish such as demersal rays, but their diet is mainly medium-sized squid"
+            android:text="@string/sperm_whales_usually_dive_between_300_to_800_meters_980_to_2_620_ft_and_sometimes_1_to_2_kilometers_3_300_to_6_600_ft_in_search_of_food_such_dives_can_last_more_than_an_hour_they_feed_on_several_species_notably_the_giant_squid_but_also_the_colossal_squid_octopuses_and_fish_such_as_demersal_rays_but_their_diet_is_mainly_medium_sized_squid"
             android:textColor="#FFFFFF"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -58,7 +57,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/advent_pro"
-            android:text="Habitat:"
+            android:text="@string/habitat"
             android:textColor="#FFFFFF"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -68,7 +67,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/advent_pro"
-            android:text="sperm whales have one of the widest global distributions of any marine mammal species. They are found in all deep oceans, from the equator to the edge of the pack ice in the Arctic and Antarctic."
+            android:text="@string/sperm_whales_have_one_of_the_widest_global_distributions_of_any_marine_mammal_species_they_are_found_in_all_deep_oceans_from_the_equator_to_the_edge_of_the_pack_ice_in_the_arctic_and_antarctic"
             android:textColor="#FFFFFF"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -78,7 +77,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/advent_pro"
-            android:text="Behavior:"
+            android:text="@string/behavior"
             android:textColor="#FFFFFF"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -88,7 +87,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/advent_pro"
-            android:text="Like elephants, females and their young live in matriarchal groups called pods, while bulls live apart. Bulls sometimes form loose bachelor groups with other males of similar age and size. As they grow older, they typically live solitary lives, only returning to the pod to socialize or to breed . Bulls have beached themselves together, suggesting a degree of cooperation which is not yet fully understood. The whales rarely, if ever, leave their group. "
+            android:text="@string/like_elephants_females_and_their_young_live_in_matriarchal_groups_called_pods_while_bulls_live_apart_bulls_sometimes_form_loose_bachelor_groups_with_other_males_of_similar_age_and_size_as_they_grow_older_they_typically_live_solitary_lives_only_returning_to_the_pod_to_socialize_or_to_breed_bulls_have_beached_themselves_together_suggesting_a_degree_of_cooperation_which_is_not_yet_fully_understood_the_whales_rarely_if_ever_leave_their_group"
             android:textColor="#FFFFFF"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -98,7 +97,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/advent_pro"
-            android:text="Fun Fact:"
+            android:text="@string/fun_fact"
             android:textColor="#FFFFFF"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -108,7 +107,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/advent_pro"
-            android:text="Sperm whales are the largest of the toothed whales. Males can weigh up to 50 tons, which is more than 700 people combined. Their head is about one-third of their body length, and they have the largest brain of any animal on Earth."
+            android:text="@string/sperm_whales_are_the_largest_of_the_toothed_whales_males_can_weigh_up_to_50_tons_which_is_more_than_700_people_combined_their_head_is_about_one_third_of_their_body_length_and_they_have_the_largest_brain_of_any_animal_on_earth"
             android:textColor="#FFFFFF"
             android:textSize="20sp"
             android:textStyle="bold" />

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -17,7 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/advent_pro"
-            android:text="Summary:"
+            android:text="@string/summary"
             android:textColor="#FFFFFF"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -27,7 +26,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/advent_pro"
-            android:text="Gray whales have no dorsal (back) fins. Instead, they have a low hump and a series of six to twelve knuckles or bumps. Gray whales are baleen whales, and each has approximately 300 plates of cream-colored baleen hanging from its upper jaw. Two to five throat creases allow their throats to expand during feeding."
+            android:text="@string/gray_whales_have_no_dorsal_back_fins_instead_they_have_a_low_hump_and_a_series_of_six_to_twelve_knuckles_or_bumps_gray_whales_are_baleen_whales_and_each_has_approximately_300_plates_of_cream_colored_baleen_hanging_from_its_upper_jaw_two_to_five_throat_creases_allow_their_throats_to_expand_during_feeding"
             android:textColor="#FFFFFF"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -38,7 +37,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/advent_pro"
             android:shadowColor="#FFFFFF"
-            android:text="Diet:"
+            android:text="@string/diet"
             android:textColor="#FFFFFF"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -48,7 +47,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/advent_pro"
-            android:text="Amphipods, which are very small crustaceans resembling shrimp, make up 90% of their diet. They find these amphipods in the mud at depths of about 200 feet in arctic waters, especially in the Bering Sea and the Chukchi Sea."
+            android:text="@string/amphipods_which_are_very_small_crustaceans_resembling_shrimp_make_up_90_of_their_diet_they_find_these_amphipods_in_the_mud_at_depths_of_about_200_feet_in_arctic_waters_especially_in_the_bering_sea_and_the_chukchi_sea"
             android:textColor="#FFFFFF"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -58,7 +57,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/advent_pro"
-            android:text="Habitat:"
+            android:text="@string/habitat"
             android:textColor="#FFFFFF"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -68,7 +67,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/advent_pro"
-            android:text="Gray whales are found mainly in shallow coastal waters in the North Pacific Ocean. There are two geographic distributions of gray whales in the North Pacific: the eastern North Pacific stock, found along the west coast of North America, and the western North Pacific stock, found along the coast of eastern Asia."
+            android:text="@string/gray_whales_are_found_mainly_in_shallow_coastal_waters_in_the_north_pacific_ocean_there_are_two_geographic_distributions_of_gray_whales_in_the_north_pacific_the_eastern_north_pacific_stock_found_along_the_west_coast_of_north_america_and_the_western_north_pacific_stock_found_along_the_coast_of_eastern_asia"
             android:textColor="#FFFFFF"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -78,7 +77,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/advent_pro"
-            android:text="Behavior:"
+            android:text="@string/behavior"
             android:textColor="#FFFFFF"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -88,7 +87,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/advent_pro"
-            android:text="Gray whales are frequently observed traveling alone or in small, unstable groups, although large aggregations may be seen in feeding and breeding grounds. Like other baleen whales, long-term bonds between individuals are thought to be rare."
+            android:text="@string/gray_whales_are_frequently_observed_traveling_alone_or_in_small_unstable_groups_although_large_aggregations_may_be_seen_in_feeding_and_breeding_grounds_like_other_baleen_whales_long_term_bonds_between_individuals_are_thought_to_be_rare"
             android:textColor="#FFFFFF"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -98,7 +97,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/advent_pro"
-            android:text="Fun Fact:"
+            android:text="@string/fun_fact"
             android:textColor="#FFFFFF"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -108,7 +107,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/advent_pro"
-            android:text="Adult grey whales can be as long as 15 meters and weigh up to 35 tones. Stack five male African elephants onto a scale and you get the picture. Female grey whales are slightly bigger than males."
+            android:text="@string/adult_grey_whales_can_be_as_long_as_15_meters_and_weigh_up_to_35_tones_stack_five_male_african_elephants_onto_a_scale_and_you_get_the_picture_female_grey_whales_are_slightly_bigger_than_males"
             android:textColor="#FFFFFF"
             android:textSize="20sp"
             android:textStyle="bold" />

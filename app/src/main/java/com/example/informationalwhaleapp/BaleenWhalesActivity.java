@@ -1,15 +1,14 @@
 package com.example.informationalwhaleapp;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import java.util.Objects;
 
 public class BaleenWhalesActivity extends AppCompatActivity {
 
-    Button buttonGoBack;
     Button buttonBeaked;
     Button buttonGray;
     Button buttonHumpback;
@@ -18,7 +17,8 @@ public class BaleenWhalesActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_baleen_whales);
-        getSupportActionBar().hide();
+        // hide action bar
+        Objects.requireNonNull(getSupportActionBar()).hide();
 
         buttonBeaked = (Button) findViewById(R.id.buttonBeaked);
         buttonBeaked.setOnClickListener(new View.OnClickListener() {
@@ -44,11 +44,7 @@ public class BaleenWhalesActivity extends AppCompatActivity {
             }
         });
     }
-    // function to open MainActivity
-    public void openMainActivity(){
-        Intent intent = new Intent(this, MainActivity.class);
-        startActivity(intent);
-    }
+
     public void openBeakedWhaleActivity(){
         Intent intent = new Intent(this, BeakedWhale.class);
         startActivity(intent);

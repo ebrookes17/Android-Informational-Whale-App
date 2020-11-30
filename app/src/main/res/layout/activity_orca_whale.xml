@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -18,7 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/advent_pro"
-            android:text="Summary:"
+            android:text="@string/summary"
             android:textColor="#FFFFFF"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -28,7 +27,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/advent_pro"
-            android:text="The killer whale or orca (Orcinus orca) is a toothed whale belonging to the oceanic dolphin family, of which it is the largest member. Killer whales have a diverse diet, although individual populations often specialize in particular types of prey. Some feed exclusively on fish, while others hunt marine mammals such as seals and other species of dolphin. They have been known to attack baleen whale calves, and even adult whales."
+            android:text="@string/the_killer_whale_or_orca_orcinus_orca_is_a_toothed_whale_belonging_to_the_oceanic_dolphin_family_of_which_it_is_the_largest_member_killer_whales_have_a_diverse_diet_although_individual_populations_often_specialize_in_particular_types_of_prey_some_feed_exclusively_on_fish_while_others_hunt_marine_mammals_such_as_seals_and_other_species_of_dolphin_they_have_been_known_to_attack_baleen_whale_calves_and_even_adult_whales"
             android:textColor="#FFFFFF"
             android:textSize="18sp"
             android:textStyle="bold" />
@@ -39,7 +38,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/advent_pro"
             android:shadowColor="#FFFFFF"
-            android:text="Diet:"
+            android:text="@string/diet"
             android:textColor="#FFFFFF"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -49,7 +48,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/advent_pro"
-            android:text="On average, a killer whale eats 227 kilograms (500 lb) each day. killer whales prey on around 30 species of fish. Salmon account for 96% of northeast Pacific residents' diet, including 65% of large, fatty Chinook. Chum salmon are also eaten, but smaller sockeye and pink salmon are not a significant food item. "
+            android:text="@string/on_average_a_killer_whale_eats_227_kilograms_500_lb_each_day_killer_whales_prey_on_around_30_species_of_fish_salmon_account_for_96_of_northeast_pacific_residents_diet_including_65_of_large_fatty_chinook_chum_salmon_are_also_eaten_but_smaller_sockeye_and_pink_salmon_are_not_a_significant_food_item"
             android:textColor="#FFFFFF"
             android:textSize="18sp"
             android:textStyle="bold" />
@@ -59,7 +58,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/advent_pro"
-            android:text="Habitat:"
+            android:text="@string/habitat"
             android:textColor="#FFFFFF"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -69,7 +68,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/advent_pro"
-            android:text="Killer whales are found in all oceans and most seas. Due to their enormous range, numbers, and density, relative distribution is difficult to estimate but they clearly prefer higher latitudes and coastal areas over pelagic environments. Areas which serve as major study sites for the species include the coasts of Iceland, Norway, the Valdes Peninsula of Argentina, the Crozet Islands, New Zealand and parts of the west coast of North America, from California to Alaska."
+            android:text="@string/killer_whales_are_found_in_all_oceans_and_most_seas_due_to_their_enormous_range_numbers_and_density_relative_distribution_is_difficult_to_estimate_but_they_clearly_prefer_higher_latitudes_and_coastal_areas_over_pelagic_environments_areas_which_serve_as_major_study_sites_for_the_species_include_the_coasts_of_iceland_norway_the_valdes_peninsula_of_argentina_the_crozet_islands_new_zealand_and_parts_of_the_west_coast_of_north_america_from_california_to_alaska"
             android:textColor="#FFFFFF"
             android:textSize="18sp"
             android:textStyle="bold" />
@@ -79,7 +78,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/advent_pro"
-            android:text="Behavior:"
+            android:text="@string/behavior"
             android:textColor="#FFFFFF"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -89,7 +88,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/advent_pro"
-            android:text="Day-to-day killer whale behavior generally consists of foraging, travelling, resting and socializing. Killer whales frequently engage in surface behavior such as breaching (jumping completely out of the water) and tail-slapping. These activities may have a variety of purposes, such as courtship, communication, dislodging parasites, or play. Spy hopping is a behavior in which a whale holds its head above water to view its surroundings. Resident killer whales swim alongside porpoises and other dolphins."
+            android:text="@string/day_to_day_killer_whale_behavior_generally_consists_of_foraging_travelling_resting_and_socializing_killer_whales_frequently_engage_in_surface_behavior_such_as_breaching_jumping_completely_out_of_the_water_and_tail_slapping_these_activities_may_have_a_variety_of_purposes_such_as_courtship_communication_dislodging_parasites_or_play_spy_hopping_is_a_behavior_in_which_a_whale_holds_its_head_above_water_to_view_its_surroundings_resident_killer_whales_swim_alongside_porpoises_and_other_dolphins"
             android:textColor="#FFFFFF"
             android:textSize="18sp"
             android:textStyle="bold" />
@@ -99,7 +98,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/advent_pro"
-            android:text="Fun Fact:"
+            android:text="@string/fun_fact"
             android:textColor="#FFFFFF"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -109,7 +108,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/advent_pro"
-            android:text="Orca’s aren’t really whales. They also cannot smell, but they do have big brains."
+            android:text="@string/orca_s_aren_t_really_whales_they_also_cannot_smell_but_they_do_have_big_brains"
             android:textColor="#FFFFFF"
             android:textSize="18sp"
             android:textStyle="bold" />
