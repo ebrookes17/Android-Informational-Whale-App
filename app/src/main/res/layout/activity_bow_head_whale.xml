@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#141D50"
+    android:background="@drawable/bowheadbackground"
     tools:context=".BowHeadWhale">
 
     <LinearLayout
@@ -16,82 +15,102 @@
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Summary:"
+            android:fontFamily="@font/advent_pro"
+            android:text="@string/summary"
             android:textColor="#FFFFFF"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="The bowhead whale (Balaena mysticetus) is a species of baleen whale belonging to the family Balaenidae and the only living representative of the genus Balaena. It is the only baleen whale endemic to the Arctic and subarctic waters. Bowheads are named after their characteristic massive triangular skull, which is used to break through Arctic ice. Other common names of the species are the Greenland right whale or Arctic whale. American whalemen called them the steeple-top, polar whale, or Russia or Russian whale."
+            android:fontFamily="@font/advent_pro"
+            android:text="@string/the_bowhead_whale_balaena_mysticetus_is_a_species_of_baleen_whale_belonging_to_the_family_balaenidae_and_the_only_living_representative_of_the_genus_balaena_it_is_the_only_baleen_whale_endemic_to_the_arctic_and_subarctic_waters_bowheads_are_named_after_their_characteristic_massive_triangular_skull_which_is_used_to_break_through_arctic_ice_other_common_names_of_the_species_are_the_greenland_right_whale_or_arctic_whale_american_whalemen_called_them_the_steeple_top_polar_whale_or_russia_or_russian_whale"
             android:textColor="#FFFFFF"
-            android:textSize="18sp" />
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/advent_pro"
             android:shadowColor="#FFFFFF"
-            android:text="Diet:"
+            android:text="@string/diet"
             android:textColor="#FFFFFF"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="The diet consists of mostly zooplankton, which includes copepods, amphipods, and many other crustaceans. About 2 short tons (1.8 long tons; 1.8 t) of food are consumed each day."
+            android:fontFamily="@font/advent_pro"
+            android:text="@string/the_diet_consists_of_mostly_zooplankton_which_includes_copepods_amphipods_and_many_other_crustaceans_about_2_short_tons_1_8_long_tons_1_8_t_of_food_are_consumed_each_day"
             android:textColor="#FFFFFF"
-            android:textSize="18sp" />
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Habitat:"
+            android:fontFamily="@font/advent_pro"
+            android:text="@string/habitat"
             android:textColor="#FFFFFF"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="The bowhead whale is the only baleen whale to spend its entire life in the Arctic and subarctic waters. The Alaskan population spends the winter months in the southwestern Bering Sea. The group migrates northward in the spring, following openings in the ice, into the Chukchi and Beaufort seas. The whale's range varies depending on climate changes and on the forming/melting of ice."
+            android:fontFamily="@font/advent_pro"
+            android:text="@string/the_bowhead_whale_is_the_only_baleen_whale_to_spend_its_entire_life_in_the_arctic_and_subarctic_waters_the_alaskan_population_spends_the_winter_months_in_the_southwestern_bering_sea_the_group_migrates_northward_in_the_spring_following_openings_in_the_ice_into_the_chukchi_and_beaufort_seas_the_whale_s_range_varies_depending_on_climate_changes_and_on_the_forming_melting_of_ice"
             android:textColor="#FFFFFF"
-            android:textSize="18sp" />
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Behavior:"
+            android:fontFamily="@font/advent_pro"
+            android:text="@string/behavior"
             android:textColor="#FFFFFF"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView8"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Bowhead whales are not social animals, typically travelling alone or in small pods of up to six. They are able to dive and remain submerged under water for up to an hour. The time spent under water in a single dive is usually limited to 9–18 minutes."
+            android:fontFamily="@font/advent_pro"
+            android:text="@string/bowhead_whales_are_not_social_animals_typically_travelling_alone_or_in_small_pods_of_up_to_six_they_are_able_to_dive_and_remain_submerged_under_water_for_up_to_an_hour_the_time_spent_under_water_in_a_single_dive_is_usually_limited_to_9_18_minutes"
             android:textColor="#FFFFFF"
-            android:textSize="18sp" />
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView9"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Fun Fact:"
+            android:fontFamily="@font/advent_pro"
+            android:text="@string/fun_fact"
             android:textColor="#FFFFFF"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView10"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Bowheads have the largest mouth of any animal representing almost one-third of the length of the body, the longest baleen plates with a maximum length of 4 m (13.1 ft)  and may be the longest-lived mammals, with the ability to reach an age of more than 200 years. "
+            android:fontFamily="@font/advent_pro"
+            android:text="@string/bowheads_have_the_largest_mouth_of_any_animal_representing_almost_one_third_of_the_length_of_the_body_the_longest_baleen_plates_with_a_maximum_length_of_4_m_13_1_ft_and_may_be_the_longest_lived_mammals_with_the_ability_to_reach_an_age_of_more_than_200_years"
             android:textColor="#FFFFFF"
-            android:textSize="18sp" />
+            android:textSize="20sp"
+            android:textStyle="bold" />
     </LinearLayout>
 
 </ScrollView>
