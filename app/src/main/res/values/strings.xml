@@ -19,4 +19,5 @@
     <string name="toothedwhale">toothedwhale</string>
     <string name="select_a_whale_type_or_use_the_search_bar">Select a whale type or use the search bar</string>
     <string name="whaleapp">WhaleApp</string>
+    <string name="daily_whale_fact">Daily Whale Fact</string>
 </resources>

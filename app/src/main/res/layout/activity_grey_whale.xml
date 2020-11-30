@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#141D50"
+    android:background="@drawable/greybackground"
     tools:context=".GreyWhale">
 
     <LinearLayout
@@ -16,82 +16,102 @@
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/advent_pro"
             android:text="Summary:"
             android:textColor="#FFFFFF"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/advent_pro"
             android:text="Gray whales have no dorsal (back) fins. Instead, they have a low hump and a series of six to twelve knuckles or bumps. Gray whales are baleen whales, and each has approximately 300 plates of cream-colored baleen hanging from its upper jaw. Two to five throat creases allow their throats to expand during feeding."
             android:textColor="#FFFFFF"
-            android:textSize="18sp" />
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/advent_pro"
             android:shadowColor="#FFFFFF"
             android:text="Diet:"
             android:textColor="#FFFFFF"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/advent_pro"
             android:text="Amphipods, which are very small crustaceans resembling shrimp, make up 90% of their diet. They find these amphipods in the mud at depths of about 200 feet in arctic waters, especially in the Bering Sea and the Chukchi Sea."
             android:textColor="#FFFFFF"
-            android:textSize="18sp" />
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/advent_pro"
             android:text="Habitat:"
             android:textColor="#FFFFFF"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/advent_pro"
             android:text="Gray whales are found mainly in shallow coastal waters in the North Pacific Ocean. There are two geographic distributions of gray whales in the North Pacific: the eastern North Pacific stock, found along the west coast of North America, and the western North Pacific stock, found along the coast of eastern Asia."
             android:textColor="#FFFFFF"
-            android:textSize="18sp" />
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/advent_pro"
             android:text="Behavior:"
             android:textColor="#FFFFFF"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView8"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/advent_pro"
             android:text="Gray whales are frequently observed traveling alone or in small, unstable groups, although large aggregations may be seen in feeding and breeding grounds. Like other baleen whales, long-term bonds between individuals are thought to be rare."
             android:textColor="#FFFFFF"
-            android:textSize="18sp" />
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView9"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/advent_pro"
             android:text="Fun Fact:"
             android:textColor="#FFFFFF"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView10"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/advent_pro"
             android:text="Adult grey whales can be as long as 15 meters and weigh up to 35 tones. Stack five male African elephants onto a scale and you get the picture. Female grey whales are slightly bigger than males."
             android:textColor="#FFFFFF"
-            android:textSize="18sp" />
+            android:textSize="20sp"
+            android:textStyle="bold" />
     </LinearLayout>
 
 </ScrollView>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#141D50"
+    android:background="@drawable/beaked"
     tools:context=".BeakedWhale">
 
     <LinearLayout
@@ -16,82 +16,102 @@
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/advent_pro"
             android:text="Summary:"
             android:textColor="#FFFFFF"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/advent_pro"
             android:text="Beaked whales are a group of cetaceans noted as being one of the least known groups of mammals because of their deep-sea habitat and apparent low abundance. Only three or four of the 22 species are reasonably well-known. Baird's beaked whales and Cuvier's beaked whales were subject to commercial exploitation, off the coast of Japan, while the northern bottlenose whale was extensively hunted in the northern part of the North Atlantic late in the 19th and early 20th centuries."
             android:textColor="#FFFFFF"
-            android:textSize="18sp" />
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/advent_pro"
             android:shadowColor="#FFFFFF"
             android:text="Diet:"
             android:textColor="#FFFFFF"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/advent_pro"
             android:text="Their preferred diet is primarily deep-water squid, but also benthic and benthopelagic fish and some crustaceans, mostly taken near the sea floor. In a recent study, gouge marks in the sea floor were interpreted to be a result of feeding activities by beaked whales."
             android:textColor="#FFFFFF"
-            android:textSize="18sp" />
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/advent_pro"
             android:text="Habitat:"
             android:textColor="#FFFFFF"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/advent_pro"
             android:text="Beaked whales are known to congregate in deep waters off the edge of continental shelves, and bottom features, such as seamounts, canyons, escarpments, and oceanic islands, including the Azores and the Canary Islands, and even off the coasts of Hawaii."
             android:textColor="#FFFFFF"
-            android:textSize="18sp" />
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/advent_pro"
             android:text="Behavior:"
             android:textColor="#FFFFFF"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView8"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/advent_pro"
             android:text="A new study suggests that beaked whales have evolved stealthy and synchronized behavior to evade predators such as killer whales. They dive in synch to maximize their foraging time together and minimize their time at the surface, where killer whales can more easily target them."
             android:textColor="#FFFFFF"
-            android:textSize="18sp" />
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView9"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/advent_pro"
             android:text="Fun Fact:"
             android:textColor="#FFFFFF"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView10"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/advent_pro"
             android:text="beaked whales are also the deepest diving mammal in the world, able to dive at a depth of approximately 10,000 feet (3, 048 meters). Moreover, a study, conducted in 2014, has shown that this animal is the longest known mammal to hold its breath under water."
             android:textColor="#FFFFFF"
-            android:textSize="18sp" />
+            android:textSize="20sp"
+            android:textStyle="bold" />
     </LinearLayout>
 
 </ScrollView>

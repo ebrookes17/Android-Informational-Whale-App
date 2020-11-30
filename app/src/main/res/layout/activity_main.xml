@@ -156,5 +156,24 @@
             android:orientation="horizontal"
             app:layout_constraintGuide_percent="0.11" />
 
+        <Button
+            android:id="@+id/buttonfact"
+            android:layout_width="153dp"
+            android:layout_height="76dp"
+            android:background="@drawable/border_dashed"
+            android:backgroundTint="#101010"
+            android:text="@string/daily_whale_fact"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/buttonToothedWhales"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.965"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.989" />
+
+
+
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

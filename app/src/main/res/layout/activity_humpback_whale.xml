@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#141D50"
+    android:background="@drawable/humpbackbackgroundmaster"
     tools:context=".HumpbackWhale">
 
     <LinearLayout
@@ -16,82 +16,132 @@
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/advent_pro"
             android:text="Summary:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="#FFFFFF"
-            android:textSize="24sp" />
+            android:textColorHighlight="#000000"
+            android:textColorHint="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/advent_pro"
             android:text="Humpbacks are mainly black or grey with white undersides to their flukes, flippers and bellies. They are 15m long. ... Humpback whales are extremely active, often slapping their flippers and flukes on the surface of the sea. They also breach more than any other baleen whales."
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="#FFFFFF"
-            android:textSize="18sp" />
+            android:textColorHighlight="#000000"
+            android:textColorHint="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/advent_pro"
             android:shadowColor="#FFFFFF"
             android:text="Diet:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="#FFFFFF"
-            android:textSize="24sp" />
+            android:textColorHighlight="#000000"
+            android:textColorHint="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/advent_pro"
             android:text="Humpback whales filter-feed on small crustaceans (mostly krill) and small fish, consuming up to 3,000 pounds of food per day. Humpback whales use various techniques to help them herd, corral, and disorient their prey, which can involve the use of bubbles, sounds, and even their pectoral fins."
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="#FFFFFF"
-            android:textSize="18sp" />
+            android:textColorHighlight="#000000"
+            android:textColorHint="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/advent_pro"
             android:text="Habitat:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="#FFFFFF"
-            android:textSize="24sp" />
+            android:textColorHighlight="#000000"
+            android:textColorHint="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/advent_pro"
             android:text="Humpback whales live along the coasts of all oceans, occasionally swimming close to shore, even into harbors and rivers. They undertake long migrations between polar feeding grounds in summer and tropical or subtropical breeding grounds in winter."
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="#FFFFFF"
-            android:textSize="18sp" />
+            android:textColorHighlight="#000000"
+            android:textColorHint="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/advent_pro"
             android:text="Behavior:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="#FFFFFF"
-            android:textSize="24sp" />
+            android:textColorHighlight="#000000"
+            android:textColorHint="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView8"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/advent_pro"
             android:text="Humpback whales usually feed beneath the surface of the water, finding groups of prey and gulping them down. However, some dynamic feeding behaviors may be observed at the surface. When lunge feeding, a humpback propels itself rapidly through a concentrated ball or group of fish or krill with its mouth wide open."
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="#FFFFFF"
-            android:textSize="18sp" />
+            android:textColorHighlight="#000000"
+            android:textColorHint="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView9"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/advent_pro"
             android:text="Fun Fact:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="#FFFFFF"
-            android:textSize="24sp" />
+            android:textColorHighlight="#000000"
+            android:textColorHint="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView10"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/advent_pro"
             android:text="Humpback whales are not the biggest whales — that's the blue whale. Humpbacks can grow to 60 feet (18 meters) long, and they can weigh a whopping 40 tons (about half the size of a blue whale), according to the NOAA. Their flippers can grow up to 16 feet (5 m) long, which is the largest appendage in the world."
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="#FFFFFF"
-            android:textSize="18sp" />
+            android:textColorHighlight="#000000"
+            android:textColorHint="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
     </LinearLayout>
 
 </ScrollView>
