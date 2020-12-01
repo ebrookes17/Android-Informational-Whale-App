@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
     Button buttonBW;
     Button buttonTW;
     Button buttonFct;
+    Button buttonMWL;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -43,6 +44,14 @@ public class MainActivity extends AppCompatActivity {
                 openDailyWhaleFactActivity();
             }
         });
+        //button for my whale log
+        buttonMWL = (Button) findViewById(R.id.buttonmwl);
+        buttonMWL.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openMyWhaleLogActivity();
+            }
+        });
     }
     // function to open BaleenWhalesActivity
     public void openBaleenWhalesActivity() {
@@ -57,6 +66,11 @@ public class MainActivity extends AppCompatActivity {
     }
     public void openDailyWhaleFactActivity() {
         Intent intent = new Intent(this, DailyFactActivity.class);
+        startActivity(intent);
+        //
+    }
+    public void openMyWhaleLogActivity() {
+        Intent intent = new Intent(this, MyWhaleLog.class);
         startActivity(intent);
         //
     }

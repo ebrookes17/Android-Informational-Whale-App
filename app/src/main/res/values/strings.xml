@@ -56,4 +56,12 @@
     <string name="sperm_whales_have_one_of_the_widest_global_distributions_of_any_marine_mammal_species_they_are_found_in_all_deep_oceans_from_the_equator_to_the_edge_of_the_pack_ice_in_the_arctic_and_antarctic">sperm whales have one of the widest global distributions of any marine mammal species. They are found in all deep oceans, from the equator to the edge of the pack ice in the Arctic and Antarctic.</string>
     <string name="like_elephants_females_and_their_young_live_in_matriarchal_groups_called_pods_while_bulls_live_apart_bulls_sometimes_form_loose_bachelor_groups_with_other_males_of_similar_age_and_size_as_they_grow_older_they_typically_live_solitary_lives_only_returning_to_the_pod_to_socialize_or_to_breed_bulls_have_beached_themselves_together_suggesting_a_degree_of_cooperation_which_is_not_yet_fully_understood_the_whales_rarely_if_ever_leave_their_group">Like elephants, females and their young live in matriarchal groups called pods, while bulls live apart. Bulls sometimes form loose bachelor groups with other males of similar age and size. As they grow older, they typically live solitary lives, only returning to the pod to socialize or to breed . Bulls have beached themselves together, suggesting a degree of cooperation which is not yet fully understood. The whales rarely, if ever, leave their group.</string>
     <string name="sperm_whales_are_the_largest_of_the_toothed_whales_males_can_weigh_up_to_50_tons_which_is_more_than_700_people_combined_their_head_is_about_one_third_of_their_body_length_and_they_have_the_largest_brain_of_any_animal_on_earth">Sperm whales are the largest of the toothed whales. Males can weigh up to 50 tons, which is more than 700 people combined. Their head is about one-third of their body length, and they have the largest brain of any animal on Earth.</string>
+    <string name="my_whale_log">My Whale Log</string>
+    <string name="sperm_whale_">Sperm Whale</string>
+    <string name="beaked_">Beaked</string>
+    <string name="bowhead_">Bowhead</string>
+    <string name="grey_whale_">Grey Whale</string>
+    <string name="humpback_">Humpback</string>
+    <string name="orca_">Orca</string>
+    <string name="my_whale_log_">My Whale Log</string>
 </resources>
